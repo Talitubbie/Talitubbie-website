@@ -1,60 +1,190 @@
-index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TaliTubbie ($TUBBY)</title>
-    <style>
-        body {
-            background-color: #111;
-            color: white;
-            text-align: center;
-            font-family: Arial, sans-serif;
-        }
-        h1 {
-            font-size: 3rem;
-            margin-top: 50px;
-        }
-        .meme {
-            width: 80%;
-            max-width: 500px;
-            margin: 20px auto;
-        }
-        .btn {
-            background-color: #ff0000;
-            color: white;
-            padding: 15px 30px;
-            font-size: 1.5rem;
-            border: none;
-            cursor: pointer;
-            margin-top: 20px;
-        }
-        .btn:hover {
-            background-color: #cc0000;
-        }
-        a {
-            color: #00ffcc;
-            text-decoration: none;
-            font-size: 1.2rem;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TaliTubbie ($TUBBY) - Intergalactic Love</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: 'Orbitron', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #333;
+      padding: 10px;
+    }
+    nav a {
+      color: #00ffcc;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      background: #444;
+    }
+    .hero {
+      background: url('your-hero-image.jpg') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 1.5rem;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+      border-bottom: 2px solid #00ffcc;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .content {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .meme-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .meme-gallery img {
+      width: 300px;
+      border: 4px solid #00ffcc;
+      border-radius: 10px;
+    }
+    .roadmap-item {
+      background: #222;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #00ffcc;
+    }
+    footer {
+      background: #222;
+      text-align: center;
+      padding: 20px;
+      font-size: 1rem;
+    }
+    .btn {
+      background: #ff0000;
+      color: #fff;
+      padding: 15px 30px;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      margin-top: 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: #cc0000;
+    }
+  </style>
 </head>
 <body>
-
-    <h1>🚀 Welcome to TaliTubbie ($TUBBY) 🚀</h1>
-    <p>No Rugz, No Dumps—Just Pure Intergalactic Love!</p>
-
-    <img class="meme" src="IMG_8373.jpg" alt="TaliTubbie Meme">
-
-    <p>$TUBBY is here to save the trenches. Join us or stay broke.</p>
-
-    <button class="btn">BUY $TUBBY NOW</button>
-
-    <p>Follow us:  
-        <a href="https://x.com/tubbietali?s=21" target="_blank">Twitter</a> |  
-        <a href="https://t.me/yourtelegram" target="_blank">Telegram</a>
+  <header>
+    <h1>TaliTubbie ($TUBBY)</h1>
+    <p>No Rugz, No Dumps — Just Pure Intergalactic Love</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#gallery">Memes</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <div class="hero">
+    <h2>Welcome to the Meme Revolution</h2>
+    <p>$TUBBY is here to bring intergalactic love to the trenches!</p>
+    <a href="#" class="btn">BUY $TUBBY NOW</a>
+  </div>
+  
+  <section id="about">
+    <h2 class="section-title">About TaliTubbie</h2>
+    <div class="content">
+      <p>
+        Hi, I'm Tubbie from the land of Tali. I escaped the cave to bring financial salvation and meme magic to the world. 
+        No VC money, no utility, just pure degen love and moon-bound dreams. If you're early, you're already part of the revolution!
+      </p>
+    </div>
+  </section>
+  
+  <section id="tokenomics">
+    <h2 class="section-title">Tokenomics</h2>
+    <div class="content">
+      <p>Total Supply: 1,000,000,000 $TUBBY</p>
+      <p>Buy Tax: 2% | Sell Tax: 2%</p>
+      <p>Redistribution to holders & intergalactic charity!</p>
+    </div>
+  </section>
+  
+  <section id="roadmap">
+    <h2 class="section-title">Roadmap</h2>
+    <div class="content">
+      <div class="roadmap-item">
+        <h3>Phase 1: Escape the Cave</h3>
+        <p>TaliTubbie emerges from the underground and launches $TUBBY with meme magic and degen dreams.</p>
+      </div>
+      <div class="roadmap-item">
+        <h3>Phase 2: Intergalactic Expansion</h3>
+        <p>Memes spread like wildfire on Twitter and Telegram, and our rocket takes off into the cosmos!</p>
+      </div>
+      <div class="roadmap-item">
+        <h3>Phase 3: Meme Empire</h3>
+        <p>Global listings, epic partnerships, and TaliTubbie merch that will make you go 🚀.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="gallery">
+    <h2 class="section-title">Meme Gallery</h2>
+    <div class="meme-gallery">
+      <!-- Replace these with your actual meme images -->
+      <img src="your-meme-image1.jpg" alt="TaliTubbie Meme 1">
+      <img src="your-meme-image2.jpg" alt="TaliTubbie Meme 2">
+      <img src="your-meme-image3.jpg" alt="TaliTubbie Meme 3">
+    </div>
+  </section>
+  
+  <footer id="contact">
+    <p>
+      Follow us on 
+      <a href="https://twitter.com/yourhandle" style="color:#00ffcc;">Twitter</a> and 
+      <a href="https://t.me/yourtelegram" style="color:#00ffcc;">Telegram</a>
     </p>
-
+    <p>&copy; 2025 TaliTubbie. All rights reserved.</p>
+  </footer>
+  
 </body>
 </html>
